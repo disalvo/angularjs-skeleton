@@ -1,5 +1,7 @@
 # AngularJS Skeleton
 
+This project is based on https://github.com/HighDeveloper/angularjs-skeleton, but here I migrated to Yarn.
+
 This README outlines the details of collaborating on this AngularJS 1.x application (like an Ember).
 A short introduction of this app could easily go here.
 

@@ -20,5 +20,22 @@
     "karma-jasmine": "^1.0.2",
     "merge-stream": "^1.0.0",
     "protractor": "^4.0.0"
+  },
+  "dependencies": {
+    "@bower_components/angular": "angular/bower-angular#1.7.8",
+    "@bower_components/angular-cookies": "angular/bower-angular-cookies#^1.5.7",
+    "@bower_components/angular-inflector": "iobaixas/angular-inflector#~0.2.0",
+    "@bower_components/angular-restmod": "platanus/angular-restmod#^1.1.11",
+    "@bower_components/angular-translate": "PascalPrecht/bower-angular-translate#^2.11.0",
+    "@bower_components/angular-translate-storage-cookie": "PascalPrecht/bower-angular-translate-storage-cookie#~2.18.1",
+    "@bower_components/angular-translate-storage-local": "PascalPrecht/bower-angular-translate-storage-local#^2.11.0",
+    "@bower_components/angular-ui-router": "angular-ui/angular-ui-router-bower#^0.3.1",
+    "@bower_components/satellizer": "sahat/satellizer#^0.14.1"
+  },
+  "engines": {
+    "yarn": ">= 1.0.0"
+  },
+  "scripts": {
+    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'bower_components', 'junction') } catch (e) { }\""
   }
 }
